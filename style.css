@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-img{
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.homeify-heading{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 48px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.landing-par{
+    text-align: center;
+    padding: 30px;
+    padding-top: 0;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+}
+.get-started-btn{
+    display: block;
+    margin: 10px auto;
+    padding: 15px 30px;
+    background-color: #0C55C9;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 15px;
+    font-style: italic;
+}
+.bottom-bar{
+    height: 10px;
+    background-color: #000;
+    position: fixed;
+    bottom: 30px;
+    left: 20%;
+    right: 20%;
+    border-radius: 5px;
+}
